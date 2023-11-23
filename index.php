@@ -25,7 +25,7 @@ try {
             return;
         }
     } else {
-        header("HTTP/1.1 404 Not Found");
+        echo "Can't Access This Page";
         return;
     }
 } catch (Exception $err) {
